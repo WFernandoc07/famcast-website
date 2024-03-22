@@ -39,88 +39,100 @@
       </div>
     </section>
     <section class="about wrapper">
-      <h2 class="about__tittle">
-        A CERCA DE NOSOTROS
-      </h2>
-      <p class="about__paragraph">
-        Famcas’T es una empresa que brinda servicios de alta calidad para tu empresa. Nuestra misión es desarrollar y ejecutar proyectos tecnológicos, de ingeniería y construcción innovadores para el sector público y privado, cumpliendo los estándares de seguridad, calidad y medio ambiente. Proporcionamos a nuestros clientes los equipos y asesoramiento necesarios para llevar a cabo sus proyectos de forma segura y eficiente.
-      </p>
-      <img src="./images/about__image.png" alt="">
+      <div class="about__container about__container--order1">
+        <h2 class="about__tittle">
+          A CERCA DE NOSOTROS
+        </h2>
+        <p class="about__paragraph">
+          Famcas’T es una empresa que brinda servicios de alta calidad para tu empresa. Nuestra misión es desarrollar y ejecutar proyectos tecnológicos, de ingeniería y construcción innovadores para el sector público y privado, cumpliendo los estándares de seguridad, calidad y medio ambiente. Proporcionamos a nuestros clientes los equipos y asesoramiento necesarios para llevar a cabo sus proyectos de forma segura y eficiente.
+        </p>
+      </div>
+      <div class="about__container about__container--order0">
+        <img class="about__image" src="./images/about__image.png" alt="">
+      </div>
     </section>
     <section class="stats">
       <article class="stats__clients">
         <div class="stats__number">5+</div>
         <div class="stats__item">
-          <img src="./images/icon-clients.svg" alt="clientes">
+          <img class="stats__image" src="./images/icon-clients.svg" alt="clientes">
           <span class="stats__text">Clientes satisfechos</span>
         </div>
       </article>
       <article class="stats__consulting">
         <div class="stats__number">3+</div>
         <div class="stats__item">
-          <img src="./images/icon-compy-consulting.svg" alt="">
-          <span>Asesorías exitosas</span>
+          <img class="stats__image" src="./images/icon-compy-consulting.svg" alt="">
+          <span class="stats__text">Asesorías exitosas</span>
         </div>
       </article>
     </section>
     <section class="services">
       <h2 class="services__tittle">ESTÁS LISTO PARA LLEVAR TU EMPRESA AL SIGUIENTE NIVEL
         ¿CÓMO PODEMOS AYUDARTE?</h2>
-      <h2 class="servicess__tittle">NUESTROS SERVICIOS</h2>
+      <h2 class="services__tittle">NUESTROS SERVICIOS</h2>
       <div class="services__dividing"></div>
-      <div class="services__card">
-        <h3 class="services__card-tittle">TI</h3>
-        <p class="services__card-description">
-          Somos expertos en brindar soluciones tecnológicas integrales.
-        </p>
-        <button><img src="./images/icon-download.svg" alt="download">Brochure</button>
-        <ul class="services__card-details">
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Gestión de Redes</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Soporte Técnico</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Desarrollo de Aplicaciones Web</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Asesoría en Cloud Computing</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Seguridad Informática</li>
-        </ul>
-      </div>
-      <div class="services__card">
-        <h3 class="services__card-tittle">Consultoría</h3>
-        <p class="services__card-description">
-          Brindamos servicios de consultorías y asesorías especializada.
-        </p>
-        <button><img src="./images/icon-download.svg" alt="download">Brochure</button>
-        <ul class="services__card-details">
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Creación de UGM, POI</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Elaboración de fichas técnias, componente social PIP</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Elaboración de expedientes técnicos</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Creación de CIRAS, PACRI</li>
-          <li><img src="./images/icon-check-list.svg" alt="check-list">Topografía y geodesia</li>
-        </ul>
-      </div>        
       <div class="services__cards">
+        <div class="services__card">
+          <h3 class="services__card-tittle">TI</h3>
+          <p class="services__card-description">
+            Somos expertos en brindar soluciones tecnológicas integrales.
+          </p>
+          <form action="#" class="services__card-form">
+            <button class="services__card-button"><img src="./images/icon-download.svg" alt="download">Brochure</button>
+          </form>
+          <ul class="services__card-details">
+            <li>Gestión de Redes</li>
+            <li>Soporte Técnico</li>
+            <li>Desarrollo de Aplicaciones Web</li>
+            <li>Asesoría en Cloud Computing</li>
+            <li>Seguridad Informática</li>
+          </ul>
+        </div>
+        <div class="services__card">
+          <h3 class="services__card-tittle">Consultoría</h3>
+          <p class="services__card-description">
+            Brindamos servicios de consultorías y asesorías especializada.
+          </p>
+          <form action="#" class="services__card-form">
+            <button class="services__card-button"><img src="./images/icon-download.svg" alt="download">Brochure</button>
+          </form>
+          <ul class="services__card-details">
+            <li>Creación de UGM, POI</li>
+            <li>laboración de fichas técnias, componente social PIPE</li>
+            <li>Elaboración de expedientes técnicos</li>
+            <li>Creación de CIRAS, PACRI</li>
+            <li>Topografía y geodesia</li>
+          </ul>
+        </div>        
         <div class="services__card">
           <h3 class="services__card-tittle">Alquiler de equipos</h3>
           <p class="services__card-description">
             Brindamos el alquiler de equipos especializados para diferentes rubros
           </p>
-          <button><img src="./images/icon-download.svg" alt="download">Brochure</button>
+          <form action="#" class="services__card-form">
+            <button class="services__card-button"><img src="./images/icon-download.svg" alt="download">Brochure</button>
+          </form>
           <ul class="services__card-details">
-            <li><img src="./images/icon-check-list.svg" alt="check-list">Alquiler de GPS diferencial R8S</li>
-            <li><img src="./images/icon-check-list.svg" alt="check-list">Alquiler de nivel de ingeniero</li>
-            <li><img src="./images/icon-check-list.svg" alt="check-list">Alquiler de tensiómetro</li>
-            <li><img src="./images/icon-check-list.svg" alt="check-list">Alquiler de equipos para geosintéticos</li>
-            <li><img src="./images/icon-check-list.svg" alt="check-list">Alquiler de equipor para mecánica de suelos</li>
+            <li>Alquiler de GPS diferencial R8S</li>
+            <li>Alquiler de nivel de ingeniero</li>
+            <li>Alquiler de tensiómetro</li>
+            <li>Alquiler de equipos para geosintéticos</li>
+            <li>Alquiler de equipor para mecánica de suelos</li>
           </ul>
         </div>
       </div>
     </section>
     <section class="clients">
-      <h2 class="clients__tittle">
-        CONOCE A NUESTROS PRINCIPALES CLIENTES
-      </h2>
-      <p class="clients__paragraph">
-        Ellos nos elegieron para mejorar sus procesos y sus oportunidades en el mercado.
-      </p>
-      <div class="clients__image">
+      <div class="clientes__container">
+        <h2 class="clients__tittle">
+          CONOCE A NUESTROS PRINCIPALES CLIENTES
+        </h2>
+        <p class="clients__paragraph">
+          Ellos nos elegieron para mejorar sus procesos y sus oportunidades en el mercado.
+        </p>
+      </div>
+      <div class="clients__container">
         <img src="./images/vycLogoSinFondo.png" alt="">
         <img src="./images/mc-puruay-logo.png" alt="">
         <img src="./images/bitel-logo.png" alt="">

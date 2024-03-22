@@ -1,4 +1,5 @@
-.hero {
+.about {
+  // border: 3px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,16 +8,28 @@
   gap: 3rem;
   @media (min-width: $xl) {
     flex-direction: row;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
     text-align: start;
-    gap: 8rem;
-    padding: 12rem 6.5rem 6.5rem 6.5rem;
+    gap: 6.2rem;
+  
   }
   &__container {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    // border: 3px solid blue;
+    &--order0 {
+      @media (min-width: $xl) {
+        order: 0;
+        border: 3px solid geen;
+      }
+    }
+    &--order1 {
+      @media (min-width: $xl) {
+        order: 1;
+        align-items: center;
+      }
+    }
   }
   &__tittle {
     font-size: 1.5rem;
@@ -37,41 +50,14 @@
       margin: 0;
     }
   }
-
-  &__form {
-    @media (min-width: $xl) {
-      align-self: center;
-    }
-  }
-
-  &__cta {
-    width: 11rem;
-    height: 3rem;
-    border-radius: 1.5rem;
-    background-color: $neutral-almost-primary;
-    color: $neutral-almost-withe;
-    font-size: 1rem;
-    font-weight: $font-weight-bold;
-    box-shadow: 0 0 0.3rem $neutral-medium-gray;
-    border: none;
-    cursor: pointer;
-    margin-top: 1.5rem;
-    @media (min-width: $xl) {
-      margin-top: 2rem;
-    }
-
-  }
-
   &__image {
     width: 22rem;
     margin-top: 1.5rem;
     @media (min-width: $xl) {
-      width: 25rem;
+      margin-top: 8rem;
+      width: 32rem;
     }
-
-    
   }
-
-
+  
 
 }

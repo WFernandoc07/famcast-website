@@ -1,0 +1,82 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 3rem;
+  @media (min-width: $xl) {
+  }
+
+  &__tittle {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+  }
+  &__dividing {
+    background:  linear-gradient(90deg, rgba(229,40,18,1) 0%, rgba(66,65,67,1) 100%);
+    width: 100%;
+    height: .4rem;
+    border-radius: 5px;
+    box-shadow: 0 0 .3rem $neutral-medium-gray;
+  }
+  &__cards {
+    @media (min-width: $xl) {
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+
+  &__card {
+    margin-top: 2rem;
+    border: 3px solid $neutral-medium-gray;
+    border-radius: 1.55rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: start;
+    background-color: $neutral-almost-withe;
+    box-shadow: 0 0 .3rem $neutral-medium-gray;
+    
+    &-tittle {
+      font-size: 1.8rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    &-description {
+      padding: 0 1.5rem 0 1.5rem;
+    }
+    &-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem;
+    }
+
+    &-button {
+      width: 11rem;
+      height: 3rem;
+      border-radius: 1.5rem;
+      color: $neutral-almost-withe;
+      font-size: 1rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      background-color: $neutral-almost-primary;
+      box-shadow: 0 0 .3rem $neutral-medium-gray;
+      border: none;
+      cursor: pointer;
+    }
+    &-details {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin: 0 1.5rem 1.5rem 3rem;
+      list-style-image: url(../../../images/icon-check-list.svg);
+    }
+
+  }
+
+}
