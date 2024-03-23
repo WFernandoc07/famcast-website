@@ -1,0 +1,49 @@
+.certifications {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2.2rem;
+  margin-top: 2rem;
+  &__tittle {
+    font-size: 1rem;
+    line-height: 1.55rem;
+    font-weight: $font-weight-bold;
+  }
+  &__card {
+    width: 15rem;
+    font-size: .8rem;
+    background-color: $neutral-almost-withe;
+    border: none;
+    box-shadow: 0 0 0.2rem $neutral-medium-gray;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    &-image {
+      width: 12rem;
+      border-radius: .5rem;
+      box-shadow: 0 0 0.1rem $neutral-medium-gray;
+    }
+    &-tittle {
+      text-align: start;
+      color: $neutral-almost-primary;
+      font-weight: $font-weight-bold;
+    }
+    &-date {
+      font-style: oblique;
+      text-decoration: underline;
+      text-align: start;
+    }
+
+    &-description {
+      align-self: flex-start;
+      text-align: start;
+    }
+  
+
+  }
+
+}

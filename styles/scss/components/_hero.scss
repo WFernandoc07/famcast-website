@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem;
+  font-size: .8rem;
+  padding: .5rem;
   text-align: center;
   gap: 3rem;
+  margin-top: 3rem;
   @media (min-width: $xl) {
     flex-direction: row;
     align-items: start;
@@ -19,8 +21,8 @@
     // border: 3px solid blue;
   }
   &__tittle {
-    font-size: 1.5rem;
-    line-height: 2.2rem;
+    font-size: 1rem;
+    line-height: 1.55rem;
     font-weight: $font-weight-bold;
     @media (min-width: $xl) {
       font-size: 1.7rem;
@@ -28,9 +30,8 @@
     }
   }
   &__paragraph {
-    margin: 0 2rem 0 2rem;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    margin: 0 1.3rem 0 1.3rem;
+    line-height: 1.35rem;
     @media (min-width: $xl) {
       font-size: 1.2rem;
       line-height: 2.2rem;
@@ -45,8 +46,8 @@
   }
 
   &__cta {
-    width: 11rem;
-    height: 3rem;
+    width: 10rem;
+    height: 2.5rem;
     border-radius: 1.5rem;
     background-color: $neutral-almost-primary;
     color: $neutral-almost-withe;
@@ -55,7 +56,7 @@
     box-shadow: 0 0 0.3rem $neutral-medium-gray;
     border: none;
     cursor: pointer;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     @media (min-width: $xl) {
       margin-top: 2rem;
     }
@@ -63,15 +64,10 @@
   }
 
   &__image {
-    width: 22rem;
+    width: 15.9rem;
     margin-top: 1.5rem;
     @media (min-width: $xl) {
       width: 25rem;
-    }
-
-    
+    } 
   }
-
-
-
 }

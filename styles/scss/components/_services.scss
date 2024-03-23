@@ -3,14 +3,15 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 2rem;
-  padding: 3rem;
+  margin-top: 3rem;
+  padding: .5rem;
+  font-size: .8rem;
   @media (min-width: $xl) {
   }
 
   &__tittle {
-    font-size: 1.5rem;
-    line-height: 2.2rem;
+    font-size: 1rem;
+    line-height: 1.55rem;
     margin-top: 2rem;
   }
   &__dividing {
@@ -33,13 +34,12 @@
     border-radius: 1.55rem;
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
     text-align: start;
     background-color: $neutral-almost-withe;
     box-shadow: 0 0 .3rem $neutral-medium-gray;
     
     &-tittle {
-      font-size: 1.8rem;
+      font-size: 1.2rem;
       padding: 1rem;
       text-align: center;
     }
@@ -50,20 +50,20 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 1.5rem;
+      padding: 1rem;
     }
 
     &-button {
-      width: 11rem;
-      height: 3rem;
-      border-radius: 1.5rem;
+      width: 9rem;
+      height: 2.5rem;
+      border-radius: 1rem;
       color: $neutral-almost-withe;
-      font-size: 1rem;
+      font-size: .8rem;
       font-weight: bold;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: .5rem;
+      gap: .3rem;
       background-color: $neutral-almost-primary;
       box-shadow: 0 0 .3rem $neutral-medium-gray;
       border: none;
@@ -72,7 +72,7 @@
     &-details {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 1rem;
       margin: 0 1.5rem 1.5rem 3rem;
       list-style-image: url(../../../images/icon-check-list.svg);
     }
