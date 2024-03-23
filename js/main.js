@@ -9,8 +9,10 @@ const menuClose = document.querySelector("#menu_close")
 // Click on hamburguer menu
 menuOpen.addEventListener("click", () => {
   navbar.classList.add("navbar")
+  menuOpen .setAttribute("style", "display:none")
 })
 
 menuClose.addEventListener("click", () => {
   navbar.classList.remove("navbar")
+  menuOpen .setAttribute("style", "display:flex")
 })
