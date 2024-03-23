@@ -1,0 +1,45 @@
+.clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2.2rem;
+  padding: .5rem;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    gap: 2rem;
+    &-cards {
+      display: inline-block;
+    }
+    &--card {
+      padding: 1rem;
+      background-color: $neutral-almost-withe;
+      border: 1px solid $neutral-almost-withe;
+      box-shadow: 0 0 0.5rem $neutral-medium-gray;
+      border-radius: .5rem;
+      width: 40%;
+      &-vyc {
+        margin-bottom: 3rem;
+        margin-right: .5rem;
+      }
+      &-mc {
+        margin-bottom: 1rem;
+        margin-left: .5rem;
+      }
+    }
+  }
+  &__tittle {
+    font-size: 1rem;
+    line-height: 1.55rem;
+    font-weight: $font-weight-bold;
+  }
+  &__paragraph {
+    margin: 0 1rem 0 1rem;
+    font-size: .8rem;
+    line-height: 1.35rem;
+  }
+}

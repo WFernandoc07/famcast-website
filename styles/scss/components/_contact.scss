@@ -1,0 +1,71 @@
+.contact {
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: .5rem;
+  gap: 2.2rem;
+  &__tittle {
+    font-size: 1rem;
+    line-height: 1.55rem;
+    font-weight: $font-weight-bold;
+  }
+  &__paragraph {
+    margin: 0 1rem 0 1rem;
+    font-size: .8rem;
+    line-height: 1.35rem;
+  }
+  &__card {
+    background-color: $neutral-almost-primary;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    color: $neutral-almost-withe;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .8rem;
+    margin: 0 .8rem 0 .8rem;
+    box-shadow: 0 0 0.2rem $neutral-almost-primary;
+    &-tittle {
+      font-size: 1rem;
+      font-weight: $font-weight-bold;
+    }
+    &-description {
+      line-height: 1.35rem;
+    }
+    &-phone{
+      display: flex;
+      justify-content: start;
+      gap: 1rem;
+      &-text {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    &-mail {
+      display: flex;
+      justify-content: start;
+      gap: 1rem;
+    }
+    &-whatsapp {
+      display: flex;
+      justify-content: start;
+      gap: 1rem;
+    }
+  }
+  &__button {
+    background-color: $neutral-almost-withe;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: .8rem;
+    font-weight: $font-weight-bold;
+    box-shadow: 0 0 0.3rem $neutral-medium-gray;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  
+  }
+
+}
