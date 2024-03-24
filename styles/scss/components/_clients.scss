@@ -6,6 +6,13 @@
   gap: 2.2rem;
   padding: .5rem;
 
+  @media (min-width: $xl) {
+    flex-direction: row;
+    text-align: start;
+    gap: 5.5rem;
+    padding: 0 6.5rem 6.5rem 6.5rem;
+  }
+
   &__container {
     display: flex;
     flex-direction: column;
@@ -14,6 +21,9 @@
     gap: 2rem;
     &-cards {
       display: inline-block;
+      @media (min-width: $xl) {        
+        width: 90%;
+      }
     }
     &--card {
       padding: 1rem;
@@ -22,6 +32,7 @@
       box-shadow: 0 0 0.5rem $neutral-medium-gray;
       border-radius: .5rem;
       width: 40%;
+      
       &-vyc {
         margin-bottom: 3rem;
         margin-right: .5rem;
@@ -36,10 +47,21 @@
     font-size: 1rem;
     line-height: 1.55rem;
     font-weight: $font-weight-bold;
+
+    @media (min-width: $xl) {
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      margin: 4rem 0 0rem 0;
+    }
   }
   &__paragraph {
     margin: 0 1rem 0 1rem;
     font-size: .8rem;
     line-height: 1.35rem;
+    @media (min-width: $xl) {
+      font-size: 1.2rem;
+      line-height: 2.2rem;
+      margin: 0;
+    }
   }
 }

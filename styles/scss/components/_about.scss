@@ -1,5 +1,4 @@
 .about {
-  // border: 3px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +12,8 @@
     align-items: center;
     justify-content: center;
     text-align: start;
-    gap: 6.2rem;
+    gap: 5.5rem;
+    padding: 0 6.5rem 6.5rem 6.5rem;
   
   }
   &__container {
@@ -56,7 +56,7 @@
     width: 15.9rem;
     @media (min-width: $xl) {
       margin-top: 8rem;
-      width: 32rem;
+      width: 29.75rem;
     }
   }
 }

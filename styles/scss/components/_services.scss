@@ -7,44 +7,61 @@
   padding: .5rem;
   font-size: .8rem;
   @media (min-width: $xl) {
+    padding: 0 6.5rem 6.5rem 6.5rem;
   }
-
   &__tittle {
     font-size: 1rem;
     line-height: 1.55rem;
-    margin-top: 2rem;
+    margin: 2rem 0 0rem 0;
+    @media (min-width: $xl) {
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      margin: 4rem 0 0rem 0;
+    }
+
   }
   &__dividing {
     background:  linear-gradient(90deg, rgba(229,40,18,1) 0%, rgba(66,65,67,1) 100%);
-    width: 100%;
+    width: 80%;
     height: .4rem;
     border-radius: 5px;
     box-shadow: 0 0 .3rem $neutral-medium-gray;
+    @media (min-width: $xl) {
+      height: .5rem;
+    }
   }
   &__cards {
     @media (min-width: $xl) {
       display: flex;
-      gap: 1.5rem;
     }
   }
 
   &__card {
-    margin-top: 2rem;
-    border: 3px solid $neutral-medium-gray;
     border-radius: 1.55rem;
     display: flex;
     flex-direction: column;
     text-align: start;
     background-color: $neutral-almost-withe;
     box-shadow: 0 0 .3rem $neutral-medium-gray;
+    margin: 2rem .8rem 0 .8rem;
+    @media (min-width: $xl) {
+      margin: 3rem .8rem 0 .8rem;      
+    }
     
     &-tittle {
       font-size: 1.2rem;
       padding: 1rem;
       text-align: center;
+      @media (min-width: $xl) {
+        font-size: 1.2rem;
+      }
     }
     &-description {
       padding: 0 1.5rem 0 1.5rem;
+      @media (min-width: $xl) {
+        padding: 0 1.5rem 0 1.5rem;
+        font-size: 1rem;
+      }
     }
     &-form {
       display: flex;
@@ -55,7 +72,7 @@
 
     &-button {
       width: 9rem;
-      height: 2.5rem;
+      padding: .7rem;
       border-radius: 1rem;
       color: $neutral-almost-withe;
       font-size: .8rem;
@@ -68,6 +85,11 @@
       box-shadow: 0 0 .3rem $neutral-medium-gray;
       border: none;
       cursor: pointer;
+      @media (min-width: $xl) {
+        width: 10rem;
+        padding: .8rem;
+        font-size: 1rem;
+      }
     }
     &-details {
       display: flex;
@@ -75,6 +97,9 @@
       gap: 1rem;
       margin: 0 1.5rem 1.5rem 3rem;
       list-style-image: url(../../../images/icon-check-list.svg);
+      @media (min-width: $xl) {
+        font-size: 1rem;
+      }
     }
 
   }

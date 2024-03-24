@@ -8,9 +8,9 @@
   gap: 5rem;
   @media (min-width: $xl) {
     background-color: $neutral-almost-withe;
-    display: flex;
     flex-direction: row;
     gap: 14rem;
+    padding: 1rem;
     margin: 0 6.5rem 0 6.5rem;
 
   }
@@ -21,15 +21,24 @@
     font-size: 4rem;
     font-weight: $font-weight-bold;
     color: $neutral-almost-primary;
+    @media (min-width:$xl) {
+      font-size: 5rem;
+    }
   }
   &__item {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 7rem;
+    @media (min-width: $xl) {
+      gap: 1rem;
+    }
   }
   &__text {
     padding: 0 .2rem 0 .2rem;
     font-size: .8rem;
+    @media (min-width: $xl) {
+      font-size: 1rem;
+    }
   }
 }
