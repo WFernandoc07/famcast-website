@@ -1,7 +1,7 @@
 .stiky {
+  background-color: $neutral-almost-withe;
+  box-shadow: 0 0 0.3rem $neutral-medium-gray;
   @media (min-width: $xl) {
-    background-color: $neutral-almost-withe;
-    box-shadow: 0 0 0.3rem $neutral-medium-gray;
     padding: 3.1rem;
     position: fixed;
     top: 0;
@@ -15,7 +15,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  // background-color: $neutral-almost-withe;
   font-size: .8rem;
   @media (min-width: $xl) {
     font-size: 1rem;
@@ -26,7 +25,6 @@
     left: 0;
     right: 0;
     top: 0;
-    // box-shadow: 0 0 0.3rem $neutral-medium-gray;
   }
 
   //header__menu
@@ -165,7 +163,6 @@
       text-decoration: none;
       color: $neutral-almost-withe;
     }
-
     & li a:hover {
       color: $neutral-almost-black;
     }

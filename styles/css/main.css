@@ -11,10 +11,12 @@ html {
   color: #424143;
 }
 
+.stiky {
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 0 0.3rem hsl(0, 0%, 41%);
+}
 @media (min-width: 1200px) {
   .stiky {
-    background-color: hsl(0, 0%, 98%);
-    box-shadow: 0 0 0.3rem hsl(0, 0%, 41%);
     padding: 3.1rem;
     position: fixed;
     top: 0;
@@ -769,9 +771,11 @@ html {
   text-align: start;
 }
 
+.stiky-footer {
+  background-color: #424143;
+}
 @media (min-width: 1200px) {
   .stiky-footer {
-    background-color: #424143;
     position: relative;
     bottom: 0;
     left: 0;
