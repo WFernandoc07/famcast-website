@@ -773,6 +773,7 @@ html {
 
 .stiky-footer {
   background-color: #424143;
+  margin-top: 3rem;
 }
 @media (min-width: 1200px) {
   .stiky-footer {
@@ -791,7 +792,6 @@ html {
   gap: 2.2rem;
   color: hsl(0, 0%, 98%);
   padding: 3rem 0.5rem 0 0.5rem;
-  margin-top: 3rem;
 }
 @media (min-width: 1200px) {
   .footer {
