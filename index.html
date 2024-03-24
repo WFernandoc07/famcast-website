@@ -7,26 +7,28 @@
   <link rel="stylesheet" href="./styles/css/main.css">
 </head>
 <body>
-  <header class="header wrapper">
-    <img class="logo" src="./images/LogoFamcast_Nuevo_01.png" alt="">
-    <img id="menu_open" class="header__menu header__menu--open" src="./images/icon-menu.svg" alt="">
-    <div class="header__bg"></div>
-    <nav id="navbar" class="navbar--close">
-      <img id="menu_close" class="header__menu header__menu--close" src="./images/icon-close-menu.svg" alt="">
-      <ul id="navbarItems" class="navbar__list">
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-      <ul class="navbar__auth">
-        <li><a href="#">Intranet</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="stiky">
+    <header class="header wrapper">
+      <img class="logo" src="./images/LogoFamcast_Nuevo_01.png" alt="">
+      <img id="menu_open" class="header__menu header__menu--open" src="./images/icon-menu.svg" alt="">
+      <div class="header__bg"></div>
+      <nav id="navbar" class="navbar--close">
+        <img id="menu_close" class="header__menu header__menu--close" src="./images/icon-close-menu.svg" alt="">
+        <ul id="navbarItems" class="navbar__list">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <ul class="navbar__auth">
+          <li><a href="#">Intranet</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 
-  <main>
-    <section class="hero wrapper">
+  <main class="wrapper">
+    <section class="hero">
       <div class="hero__container">
         <h1 class="hero__tittle">TU ALIADO PARA EL ÉXITO: SOLUCIONES INTEGRALES PARA TU EMPRESA</h1>
         <p class="hero__paragraph">¿Necesita soluciones de alto impacto  para su proyecto y/o empresa? En Famcas’T, le ofrecemos una amplia gama de servicio de alta calidad para su empresa</p>
@@ -177,46 +179,48 @@
       </article>
     </section>
   </main>
-  <footer class="footer">
-    <div class="footer__logo">
-      <img src="./images/FamCastLogos_blanco-05.png" alt="">
-    </div>
-    <div class="footer__info">
-      <div class="footer__container">
-        <div class="footer__menu">
-          <div class="footer__menu--column">
-            <span>Inicio</span>
-            <span>Acerca de</span>
-            <span>Servicio</span>
+  <div class="stiky-footer">
+    <footer class="footer wrapper">
+      <div class="footer__logo">
+        <img src="./images/FamCastLogos_blanco-05.png" alt="">
+      </div>
+      <div class="footer__info">
+        <div class="footer__container">
+          <div class="footer__menu">
+            <div class="footer__menu--column">
+              <span>Inicio</span>
+              <span>Acerca de</span>
+              <span>Servicio</span>
+            </div>
+            <div class="footer__menu--column">
+              <span>Contacto</span>
+              <span>Intranet</span>
+            </div>
           </div>
-          <div class="footer__menu--column">
-            <span>Contacto</span>
-            <span>Intranet</span>
+          <div class="footer__social-network">
+            <img src="./images/icon-fb.svg" alt="">
+            <img src="./images/icon-linkdin.svg" alt="">
+            <img src="./images/icon-wsp.svg" alt="">
           </div>
         </div>
-        <div class="footer__social-network">
-          <img src="./images/icon-fb.svg" alt="">
-          <img src="./images/icon-linkdin.svg" alt="">
-          <img src="./images/icon-wsp.svg" alt="">
+        <div class="footer__container">
+          <form class="footer__form" action="#">
+            <label class="footer__form-label" for="">Contáctate con nosotros</label>
+            <input class="footer__form-text" type="text" name="" id="name" value="" placeholder="Escribe tu email aquí">
+            <input class="footer__form-submit" type="submit" name="name" id="" value="Suscribirse">
+            <label class="footer__form-lcbx" for="">
+              <input class="footer__form-icbx" type="checkbox" value="edad">
+              Al hacer click en el recuadro aceptas tener 18 años o más de edad.
+            </label>
+          </form>
         </div>
       </div>
-      <div class="footer__container">
-        <form class="footer__form" action="#">
-          <label class="footer__form-label" for="">Contáctate con nosotros</label>
-          <input class="footer__form-text" type="text" name="" id="name" value="" placeholder="Escribe tu email aquí">
-          <input class="footer__form-submit" type="submit" name="name" id="" value="Suscribirse">
-          <label class="footer__form-lcbx" for="">
-            <input class="footer__form-icbx" type="checkbox" value="edad">
-            Al hacer click en el recuadro aceptas tener 18 años o más de edad.
-          </label>
-        </form>
+      <div class="footer__copy">
+        <span>© 2024 Corporación Famcast S.A.C. Todos los derecho reservados</span>
+        <span>Elaborado por: <a href="https://github.com/WFernandoc07" target="_blank">William F. Castrejón ❤️‍🔥</a></span>
       </div>
-    </div>
-    <div class="footer__copy">
-      <span>© 2024 Corporación Famcast S.A.C. Todos los derecho reservados</span>
-      <span>Elaborado por: <a href="https://github.com/WFernandoc07" target="_blank">William F. Castrejón ❤️‍🔥</a></span>
-    </div>
-  </footer>
+    </footer>
+  </div>
   <script src="./js/main.js"></script>
 </body>
 </html>
